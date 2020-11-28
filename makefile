@@ -9,7 +9,7 @@ sharedir = ${prefix}/share
 mandir = ${sharedir}/man
 
 O=aoe.o bpf.o ${PLATFORM}.o ata.o dat.o
-CFLAGS += -Wall -g -O2 -fno-common
+CFLAGS += -Wall -g -O2
 CC = gcc
 
 vblade: $O
